@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('Git'){
       steps{
-       
+       git 'https://github.com/canand57/Pipeline_Script.git'
            }
              }
     stage('build'){
